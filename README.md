@@ -1,4 +1,6 @@
-# MyApplication
+# phoenix_template_01
+## Phoenix w/standard brunch + bootstrap configuration
+## for Heroku
 
 To start your Phoenix app:
 
