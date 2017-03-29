@@ -20,6 +20,8 @@ Heroku Steps:
  * heroku config:set SECRET_KEY_BASE="[phoenix gen secret]"
  * ga . && gcm "heroku" && git push heroku master
 
+DNS:
+ * Once DNS is set from the registrar, change the config/url line in config/prod.exs
 
 Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
