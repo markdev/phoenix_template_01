@@ -9,12 +9,18 @@
 
     <title>Hello MyApplication!</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+
+    <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Cabin+Sketch|Herr+Von+Muellerhoff" rel="stylesheet">
+
   </head>
 
   <body>
     <div class="container">
-    
+
       <header class="header">
         <nav role="navigation">
           <ul class="nav nav-pills pull-right">
@@ -37,6 +43,11 @@
         <li><i class="fa-li fa fa-spinner fa-spin"></i>List icons</li>
         <li><i class="fa-li fa fa-square"></i>List icons</li>
       </ul>
+
+      <h3>Google Fonts</h3>
+      <p class="googleFontExample" id="cabinSketch">This is the Cabin Sketch font</p>
+      <p class="googleFontExample" id="blackOpsOne">This is the Black Ops Onefont</p>
+      <p class="googleFontExample" id="herrVonMuellerhoff">This is the Herr Von Muellerhoff font</p>
 
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>

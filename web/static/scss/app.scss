@@ -8,4 +8,16 @@ $icon-font-path: "/fonts/";
 
 body {
 	background-color: $test-teal;
+	p.googleFontExample {
+		font-size: 3em;
+		&#cabinSketch {
+			font-family: 'Cabin Sketch', cursive;
+		}
+		&#blackOpsOne {
+			font-family: 'Black Ops One', cursive;
+		}
+		&#herrVonMuellerhoff {
+			font-family: 'Herr Von Muellerhoff', cursive;
+		}
+	}
 }
