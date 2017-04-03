@@ -9,10 +9,12 @@
 
     <title>Hello MyApplication!</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
   </head>
 
   <body>
     <div class="container">
+    
       <header class="header">
         <nav role="navigation">
           <ul class="nav nav-pills pull-right">
@@ -28,6 +30,13 @@
       <main role="main">
         <%= render @view_module, @view_template, assigns %>
       </main>
+
+      <h3>Font Awesome</h3>
+      <ul class="fa-ul">
+        <li><i class="fa-li fa fa-check-square"></i>List icons</li>
+        <li><i class="fa-li fa fa-spinner fa-spin"></i>List icons</li>
+        <li><i class="fa-li fa fa-square"></i>List icons</li>
+      </ul>
 
     </div> <!-- /container -->
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
