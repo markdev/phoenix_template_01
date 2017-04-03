@@ -32,6 +32,7 @@
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.13.2",
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^3.3.7",
+    "slider-pro": "^1.3.0"
   }
 }
