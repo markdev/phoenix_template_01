@@ -3,3 +3,9 @@ $icon-font-path: "/fonts/";
 @import "bootstrap";
 @import "font-awesome";
 @import "toastr";
+
+@import "./variables"; 
+
+body {
+	background-color: $test-teal;
+}
