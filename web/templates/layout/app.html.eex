@@ -22,7 +22,7 @@
     <div class="container">
 
       <header class="header">
-        <nav role="navigation">
+        <nav role="navigation" id="sticky-nav">
           <ul class="nav nav-pills pull-right">
             <li><a href="http://www.phoenixframework.org/docs">Get Started</a></li>
           </ul>
@@ -33,7 +33,7 @@
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 
-      <nav id="sticky-nav">
+      <nav>
         <main role="main">
           <%= render @view_module, @view_template, assigns %>
         </main>
@@ -79,7 +79,7 @@
 
       <h3>Skrollr Effects</h3>
       <div id="skrollr-foo">
-       <div id="foo" data-1000="background-color:rgb(0,0,255);" data-1500="background-color:rgb(255,0,0);">WOOOT</div>    
+       <div id="foo" data-800="background-color:rgb(0,0,255);" data-1000="background-color:rgb(255,0,0);">WOOOT</div>    
       </div>
 
     </div> <!-- /container -->
