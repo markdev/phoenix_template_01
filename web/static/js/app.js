@@ -16,6 +16,7 @@ import "bootstrap"
 import "jquery"
 import "toastr"
 import "slider-pro"
+import "skrollr"
 
 // Import local files
 //
