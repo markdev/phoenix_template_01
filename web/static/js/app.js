@@ -17,6 +17,7 @@ import "jquery"
 import "toastr"
 import "slider-pro"
 import "skrollr"
+import "sticky-header"
 
 // Import local files
 //

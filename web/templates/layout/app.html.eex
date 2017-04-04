@@ -33,9 +33,11 @@
       <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
       <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
 
-      <main role="main">
-        <%= render @view_module, @view_template, assigns %>
-      </main>
+      <nav id="sticky-nav">
+        <main role="main">
+          <%= render @view_module, @view_template, assigns %>
+        </main>
+      </nav>
 
       <h3>Font Awesome</h3>
       <ul class="fa-ul">
@@ -101,6 +103,11 @@
           // skrollr initialization      
           window.skrollr = require('skrollr');
           skrollr.init();
+
+          // sticky-header initialization      
+          window.sticky = require('sticky-header');
+          var nav = document.getElementById('sticky-nav');
+          sticky(nav);
       });
     </script> 
   </body>
