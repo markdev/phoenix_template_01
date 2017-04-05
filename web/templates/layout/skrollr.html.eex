@@ -39,7 +39,7 @@
         </main>
       </nav>
 
-      <h3>Skrollr</h3>
+      <h3>Font Awesome</h3>
       <ul class="fa-ul">
         <li><i class="fa-li fa fa-check-square"></i>List icons</li>
         <li><i class="fa-li fa fa-spinner fa-spin"></i>List icons</li>
@@ -79,7 +79,9 @@
 
       <h3>Skrollr Effects</h3>
       <div id="skrollr-foo">
-       <div id="foo" data-800="background-color:rgb(0,0,255);" data-1000="background-color:rgb(255,0,0);">WOOOT</div>    
+        <div id="foo" data-800="background-color:rgb(0,0,255);" data-1000="background-color:rgb(255,0,0);">WOOOT</div>   
+        <div id="foo" data-800="background-color:rgb(0,0,255);" data-1000="background-color:rgb(255,0,0);">WOOOT</div>   
+        <div id="foo" data-800="background-color:rgb(0,0,255);" data-1000="background-color:rgb(255,0,0);">WOOOT</div>    
       </div>
 
     </div> <!-- /container -->
