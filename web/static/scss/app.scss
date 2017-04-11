@@ -3,3 +3,30 @@ $icon-font-path: "/fonts/";
 @import "bootstrap";
 @import "font-awesome";
 @import "toastr";
+//@import "slider-pro";
+
+@import "./variables"; 
+
+body {
+	background-color: $test-teal;
+	p.googleFontExample {
+		font-size: 3em;
+		&#cabinSketch {
+			font-family: 'Cabin Sketch', cursive;
+		}
+		&#blackOpsOne {
+			font-family: 'Black Ops One', cursive;
+		}
+		&#herrVonMuellerhoff {
+			font-family: 'Herr Von Muellerhoff', cursive;
+		}
+	}
+	#skrollr-foo {
+		background-color: #f00;
+		padding: 1em;
+	}
+	.foo {
+		width: 500px;
+		height: 200px;
+	}
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hello MyApplication!</title>
+
+    <!-- Dynamic Stylesheets -->
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Cabin+Sketch|Herr+Von+Muellerhoff" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <div class="container">
+
+      <h3>Skrollr Effects</h3>
+
+      spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>spacer<br/>
+      <div class="foo" data-0="background-color:rgb(0,0,255);" data-500="background-color:rgb(255,0,0);">
+      WOOOOT</div>
+
+      <div data-0="background-color:rgb(0,0,255);transform:rotate(0deg);" data-500="background-color:rgb(255,0,0);transform:rotate(360deg);">WOOOT</div>
+
+      <div data-0="background-color:rgb(0,0,255);transform[bounce]:rotate(0deg);" data-500="background-color:rgb(255,0,0);transform[bounce]:rotate(360deg);">WOOOT</div>
+
+      <div data-0="background-color:rgb(0,0,255);transform[bounce]:rotate(0deg);" data-top="background-color:rgb(255,0,0);transform[bounce]:rotate(360deg);">WOOOT</div>
+
+      <div data-100="background-color:rgb(0,0,255); left:0%;" data-300="background-color:rgb(0,255,0); left:50%;" data-500="background-color:rgb(0,0,255); left:100%;">FOOM</div>
+
+
+
+    </div> <!-- /container -->
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($) {
+
+          // skrollr initialization      
+          skrollr.init();
+
+          // sticky-header initialization      
+          //var nav = document.getElementById('sticky-nav');
+          stickyHeader(nav);
+      });
+    </script> 
+  </body>
+</html>

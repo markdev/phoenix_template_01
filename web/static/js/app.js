@@ -15,6 +15,9 @@ import "phoenix_html"
 import "bootstrap"
 import "jquery"
 import "toastr"
+import "slider-pro"
+import "skrollr"
+import "sticky-header"
 
 // Import local files
 //
