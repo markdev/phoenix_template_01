@@ -3,7 +3,9 @@
 ## for Heroku
 
 To start your Phoenix app:
-
+  * Replace name with perl -pi -e
+  ** perl -pi -e 's/MyApplication/NewApplicationName/g' `grep -ril MyApplication .`
+  ** perl -pi -e 's/my_application/new_application_name/g' `grep -ril my_application .`
   * Install dependencies with `mix deps.get`
   * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
   * Install Node.js dependencies with `npm install`
