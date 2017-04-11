@@ -3,13 +3,13 @@
 ## for Heroku
 
 To start your Phoenix app:
-  * Replace name with perl -pi -e
-  ** perl -pi -e 's/MyApplication/NewApplicationName/g' `grep -ril MyApplication .`
-  ** perl -pi -e 's/my_application/new_application_name/g' `grep -ril my_application .`
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
-  * Install Node.js dependencies with `npm install`
-  * Start Phoenix endpoint with `mix phoenix.server`
+  1. Replace name with perl -pi -e
+  ..* perl -pi -e 's/MyApplication/NewApplicationName/g' `grep -ril MyApplication .`
+  ..* perl -pi -e 's/my_application/new_application_name/g' `grep -ril my_application .`
+  2. Install dependencies with `mix deps.get`
+  3. Create and migrate your database with `mix ecto.create && mix ecto.migrate`
+  4. Install Node.js dependencies with `npm install`
+  5. Start Phoenix endpoint with `mix phoenix.server`
 
 Heroku Steps:
  * heroku create --buildpack "https://github.com/HashNuke/heroku-buildpack-elixir.git"
